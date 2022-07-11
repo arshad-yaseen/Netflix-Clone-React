@@ -1,0 +1,29 @@
+.nav-wrapper {
+  height: 50px;
+  width: 100%;
+}
+.nav-logo {
+  height: 60px;
+  margin-left: 80px;
+  margin-top: 10px;
+  z-index: 6;
+}
+.nav-list {
+  color: white;
+  list-style: none;
+  display: flex;
+  position: absolute;
+  left: 240px;
+  top: 30px;
+  cursor: pointer;
+}
+.nav-list li {
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+@media (max-width: 540px) {
+  .nav-logo {
+    margin-left: 40%;
+  }
+}
